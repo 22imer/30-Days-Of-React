@@ -69,3 +69,40 @@ else{
     let temp = countries.splice(Math.floor(countries.length/2))
     console.log(temp,countries)
 }
+let age = 18
+if(age > 17){
+    console.log("old")
+}
+else{
+    console.log(`${18-age} need`)
+    
+}
+let a = 4
+let b = 5
+if(a > b){
+    console.log(`${a} is greater than ${b}`)
+}
+else{
+    console.log(`${a} is smaller than ${b}`)
+}
+let score = 80
+const person = {
+    firstName: 'Asabeneh',
+    lastName: 'Yetayeh',
+    age: 250,
+    country: 'Finland',
+    city: 'Helsinki',
+    skills: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Node',
+      'MongoDB',
+      'Python',
+      'D3.js',
+    ],
+    getFullName: function () {
+      return `${this.firstName} ${this.lastName}`
+    },
+  } 
